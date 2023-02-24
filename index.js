@@ -8,7 +8,7 @@ var cors = require('cors')
 const express = require('express')//include express packege in our file ,express is require for creating api
 const app = express()
 //we change the port number because 3000 port run a react application
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 6000;
 
 app.use(cors())
 app.use(express.json())//to use the request body of api
